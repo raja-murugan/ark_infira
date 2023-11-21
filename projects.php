@@ -144,6 +144,9 @@
 													<a href="projects.php">Projects</a>
 												</li>
 												<li>
+														<a href="invest.php">Invest</a>
+													</li>
+												<li>
 													<a href="contact.php">Contact Us</a>
 												</li>
 											</ul> <!-- //.nav-menu -->
@@ -156,7 +159,7 @@
 									<ul>
 										<li class="btn-quote"><a class="quote-button"
 												href="https://api.whatsapp.com/send/?phone=%2B919894443932"
-												target="_blank">Chat Now</a></li>
+												target="_blank">Chat on Whatsapp</a></li>
 										<li class="humburger">
 											<a id="nav-expander" class="nav-expander bar" href="#">
 												<div class="bar">
@@ -212,6 +215,9 @@
 						</li>
 						<li>
 							<a href="projects.php">Projects</a>
+						</li>
+						<li>
+							<a href="invest.php">Invest</a>
 						</li>
 						<li>
 							<a href="contact.php">Contact Us</a>
@@ -379,6 +385,7 @@
 							<li><a href="about.php">About Us</a></li>
 							<li><a href="services.php">Services</a></li>
 							<li><a href="projects.php">Projects</a></li>
+							<li><a href="invest.php">Invest</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
 						</ul>
 					</div>

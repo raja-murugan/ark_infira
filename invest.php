@@ -44,10 +44,143 @@
 		<link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
 		<!-- responsive css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-	</head>
+<style>
+* {
+  box-sizing: border-box;
+  border-radius: 1px;
+}
 
+/* .column {
+  float: center;
+  width: 50%;
+  padding: 0 10px;
+} */
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 5px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 650px;
+  width: 400px;
+  
+}
+.price-1{
+	margin-left: 250px;
+}
+
+.two {
+	/* list-style-type: "\263B"; */
+	margin-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size:20px;
+}
+
+.three{
+	margin-top: -50px;
+    margin-left: 134px;
+    font-size: 15px;
+}
+
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  /* background-color: #111; */
+  color: black;
+  font-size: 35px;
+}
+
+/* List items */
+.price li p {
+  border-bottom: 1px solid #eee;
+  padding: 2px;
+  text-align: center;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px)
+    {
+    .price-1
+        {
+			margin-left: -2px;
+        }
+    }
+
+.price{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.price:hover{
+     transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  background: #d75a1f;
+  color:white;
+}
+
+.price h3{
+  font-weight: 600;
+}
+
+.price img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+p{
+	margin-left: 45px;
+}
+.four{
+	margin-left: 50px;
+	padding-top: 10px;
+}
+.five{
+	padding-top: 80px;
+	margin-left: 50px;
+}
+.six{
+	padding-top: 10px;
+	font-size: 52px;
+	font-family: Playfair Display;
+}
+
+</style>
+</head>
 	<body class="defult-home">
-		
+
 		<div class="offwrap"></div>
 
 		<!--Preloader start here-->
@@ -60,7 +193,7 @@
 			</div>
 		</div>
 		<!--Preloader area end here-->
-			
+
 		<!-- Main content Start -->
 		<div class="main-content">
 
@@ -231,7 +364,7 @@
 							<li>
 								<a href="projects.php">Projects</a>
 							</li>
-							<li>
+                            <li>
 								<a href="invest.php">Invest</a>
 							</li>
 							<li>
@@ -278,133 +411,84 @@
 			</div>
 			<!--Full width header End-->
 
-			<!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img4">
-			    <div class="container">
-			        <div class="breadcrumbs-inner">
-			            <h1 class="page-title">
-			               	Contact Us
-			            </h1>
-			            <span class="sub-text">Never hesitate to get in touch with us if you need a trustworthy construction company.</span>
-			            <ul class="breadcrumbs-area">
-                           <li title="Go to konstruk">
-                               <a class="active" href="index.php">Home</a>
-                           </li>
-                          <li>Contact Us</li>
-                       </ul>
-			        </div>
-			    </div>
-			</div>
-			<!-- Breadcrumbs End -->
-		
-			<!-- Contact Section Start -->
-			<div class="rs-contact contact-style6 pb-120 md-pb-80">
-			    <div class="row no-gutters">
-			        <div class="col-lg-12">
-        				<div class="contact-section">
-                            <div class="contact-wrap">
-                            	<div class="sec-title mb-60">
-                            		<h2 class="title title4 ser-style4">Get in touch</h2>
-                            	</div>
-                                <div id="form-messages"></div>
-                                <form action="mail.php" method="post" autocomplete="off">
-                                    <fieldset>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="name" name="name" placeholder="Name *" required="">
-                                            </div> 
-											<div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number *" required="">
-                                            </div>
-                                            <div class="col-lg-12 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
-                                            </div>   
-                                            <div class="col-lg-12 mb-30">
-                                                <textarea class="from-control" id="message" name="message" placeholder="Your Message Here *" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="btn-part">                                            
-                                            <div class="form-group mb-0">
-												<button type="submit" class="readon more submit sub-con">Send Enquiry</button>
-                                            </div>
-                                        </div> 
-                                    </fieldset>
-                                </form> 
-                            </div>
-                        </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			    <div class="rs-contact pt-120 md-pt-80">
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-4 col-md-6 md-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/1.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Office address</a></h4>
-			                           <p class="services-txt"> 1st Floor, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 620019.</p>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6 sm-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/2.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Email us</a></h4>
-			                           <span><a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a></span><br>
-                                    <span><a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/3.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Call us</a></h4>
-			                           <span><a href="tel:+919894443932">+91 98944 43932</a></span><br>
-			                          	<span><a href="tel:+919092759389">+91 90927 59389</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			</div>
-			<!-- Contact Section End -->
-
-			<!-- Call To Action Choose Start -->
-			<div class="rs-cta bg4 pt-120 pb-115 md-pt-80 md-pb-75">
+            <!-- Breadcrumbs Start -->
+			<div class="rs-breadcrumbs img1">
 				<div class="container">
-					<div class="call-action">
-						<div class="sec-title text-center">
-							<span class="sub-text yellow-color">
-								<img src="assets/image/shape-1.png" alt="Images">
-								Ark Infra - What's New
-							</span>
-							<h2 class="title white-color pb-20">
-								Priya's Palace
-							</h2>
-							<p class="desc desc3 pb-35">
-								At E.S.K Nager, Pandamangalam, Tiruchirappalli.
-							</p>
-						</div>
+					<div class="breadcrumbs-inner">
+						<h1 class="page-title">
+							Invest
+						</h1>
+						<span class="sub-text">Invest confidently with Ark Infra Invest, unlocking opportunities for sustainable growth and financial success.</span>
+						<ul class="breadcrumbs-area">
+							<li title="Go to konstruk">
+								<a class="active" href="index.php">Home</a>
+							</li>
+							<li>Invest</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<!-- Call To Action Choose End -->
+			<!-- Breadcrumbs End -->
 
-		</div> 
+			<div class="row pt-5 pb-5 ml-3 mr-3">
+				<div class="col-6">
+                    <div class="price price-1">
+						<p class="six text-center">PROSPER</p>
+						<p class="text-center">&#8377;<span style="font-size: 50px;">1000</span></p>
+						<p class="three">per month</p>
+						<ul class="two check-lists3">
+                        	<li>Gold Coin-1.5Grams</li>
+                        	<li>Silk Saree</li>
+                        	<li>Diwali Sweets</li>
+                        	<li>Crackers</li>
+						</ul>
+                        <!-- <li class="btn-quote pt-3 text-center five"><a href="#" class="quote-button button">Sign Up</a></li> -->
+					</div>
+                </div>
+				
+				<div class="col-6">
+                    <div class="price">
+						<p class="six text-center">JACKPOT</p>
+						<p class="text-center">&#8377;<span style="font-size: 50px;">1500</span></p>
+						<p class="three">per month</p>
+						<ul class="two check-lists3 pb-2">
+                        	<li>Gold Coin - 2Grams</li>
+                        	<li>Silk Saree</li>
+							<li>Dress Coupon</li>
+                        	<li>Diwali Sweets</li>
+                        	<li>Crackers</li>
+							<li>Food Coupon</li>
+							<li>Donate Kit</li>
+						</ul>
+					</div>
+                </div>
+			</div>
+
+				<div class="col">
+						<h4 class="text-center pt-3">Terms and Conditions:</h4>
+						<ul class="desc-part two check-lists3" style="font-size:18px;">
+                        	<li>Easy Payment Options Google Pay, PhonePe, Paytm, Netbanking, etc.</li>
+                        	<li>Scheme Starts from 17th November 2023 and ends in 15th October 2024 (12 months tenure). Interested members can join the scheme till 26th January 2024 with additional late entry charges.</li>
+							<li>Fund Membership is restricted to 500 Counts in this Savings Fund Scheme.</li>
+                        	<li>Only Value for Money Items are delivered, and reimbursement of Cash is not encouraged.</li>
+                        	<li>All Items based on the Plan Scheme will be delivered 1 week before Diwali 2024.</li>
+							<li>Delivered to Address in and around Trichy. For other Locations around Tamil Nadu Pick-up option is available with a minimum transport charges depending on the Logistics service provider.</li>
+							<li>If you wish to cancel the scheme before or after the end date, items will be provided only for the paid amount excluding the processing charges and upon payment of pick up charges.</li>
+							<li>Pick any one of your Favourite Cracker bundles of three combos by paying the instalments before 17th of every month.</li>
+							<li>Refer this scheme to any 10 of your friends and become a Share Holder of this Savings Fund Scheme to avail more benefits that are to be revealed on Percentile concept.</li>
+							<li>Donate Kit includes crackers, sweets, snacks, and festive goodies which can be shared if interested.</li>
+							<li>Share the Joy of celebrating this grand Diwali 2024 with Kids who love crackers & sweets as much as you do by the Donate Kit through our Sharing of Happiness Program. (Venue, Date and Time will be updated later).</li>
+						</ul>
+
+						<div class="btn-part text-center">
+							<a class="readon more know" href="javascript:void(0)" style="color: white;">Enroll Now</a>
+						</div>
+						<br>
+                </div>
+        </div>
 		<!-- Main content End -->
-	 
-		<!-- Footer Start -->
+
+        <!-- Footer Start -->
 		<footer id="rs-footer" class="rs-footer footer-main-home">
 			<div class="footer-top">
 				<div class="container">
@@ -415,82 +499,85 @@
 							</div>
 							<div class="textwidget">
 								<p class="pb-20">Partnering with us means taking your construction goals to the next level with expert advice and reliable Company.</p>
-								<p class="pb-25"><strong>Opening Hours</strong> : Monday – Sat : 10 am to 7 pm</p>
+								<p class="pb-25"><strong>Opening Hours</strong> : Monday – Sat : 10 am
+									to 7 pm</p>
 							</div>
-							<ul class="footer-social md-mb-30">  
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>                     
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>                     
-                          	</ul>
+							<ul class="footer-social md-mb-30">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
 						</div>
 						<div class="col-lg-3">
 							<h3 class="footer-title">Quick Link</h3>
 							<ul class="site-map">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="services.php">Services</a></li>
-                                <li><a href="projects.php">Projects</a></li>
-								<li><a href="invest.php">Invest</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
-                            </ul>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="about.php">About Us</a></li>
+								<li><a href="services.php">Services</a></li>
+								<li><a href="projects.php">Projects</a></li>
+                                <li><a href="invest.php">Invest</a></li>
+								<li><a href="contact.php">Contact Us</a></li>
+							</ul>
 						</div>
 						<div class="col-lg-3 md-mb-10">
 							<h3 class="footer-title">Our Services</h3>
 							<ul class="site-map">
-                                <li><a href="s-planning-designing.php">Planning
-                                        & Designing</a></li>
-                                <li><a href="s-sanctioning.php">Sanctioning</a></li>
-                                <li><a href="s-estimation.php">Estimation</a></li>
-                                <li><a href="s-supervision.php">Supervision</a></li>
-                                <li><a href="s-3d-elevation.php">3D Elevation</a></li>
-                                <li><a href="s-construction.php">Construction</a></li>
-                            </ul>
+								<li><a href="s-planning-designing.php">Planning
+										& Designing</a></li>
+								<li><a href="s-sanctioning.php">Sanctioning</a></li>
+								<li><a href="s-estimation.php">Estimation</a></li>
+								<li><a href="s-supervision.php">Supervision</a></li>
+								<li><a href="s-3d-elevation.php">3D Elevation</a></li>
+								<li><a href="s-construction.php">Construction</a></li>
+							</ul>
 						</div>
 						<div class="col-lg-3 md-mb-10">
 							<h3 class="footer-title">Contact Info</h3>
 							<ul class="address-widget">
-                                <li>
-                                    <i class="fi fi-rr-map-marker-home"></i>
-                                    <div class="desc">
+								<li>
+									<i class="fi fi-rr-map-marker-home"></i>
+									<div class="desc">
 									1st Floor, Mumtaz Complex, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 19.
 									</div>
-                                </li>
-                                <li>
-                                    <i class="fi fi-rr-phone-call"></i>
-                                    <div class="desc">
+								</li>
+								<li>
+									<i class="fi fi-rr-phone-call"></i>
+									<div class="desc">
 										<a href="tel:+919894443932">+91 98944 43932</a><br>
-                                       	<a href="tel:+919092759389">+91 90927 59389</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="fi fi-rr-envelope-plus"></i>
-                                    <div class="desc">
-                                        <a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a><br>
-                                        <a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a>
-                                    </div>
-                                </li>
-                            </ul>
+										<a href="tel:+919092759389">+91 90927 59389</a>
+									</div>
+								</li>
+								<li>
+									<i class="fi fi-rr-envelope-plus"></i>
+									<div class="desc">
+										<a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a><br>
+										<a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="footer-bottom">
-                <div class="container">                    
-                    <div class="row y-middle">
-                        <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
-                            <div class="copyright text-center">
-                                <p>Designed & Developed By <a href="https://www.zworktechnology.com/" target="blank">Zwork Technology</a></p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="copyright text-center">
-                                <p>© 2023 Arch Infra.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+				<div class="container">
+					<div class="row y-middle">
+						<div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
+							<div class="copyright text-center">
+								<p>Designed & Developed By <a href="https://www.zworktechnology.com/"
+										target="blank">Zwork Technology</a></p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="copyright text-center">
+								<p>© 2023 Arch Infra.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</footer>
 		<!-- Footer End -->
+
 		<!-- start scrollUp  -->
 		<div id="scrollUp">
 			<i class="fa fa-angle-up"></i>
@@ -498,18 +585,19 @@
 		<!-- End scrollUp  -->
 
 		<!-- Search Modal Start -->
-		<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
-		    <div class="modal-dialog modal-dialog-centered">
-		        <div class="modal-content">
-		            <div class="search-block clearfix">
-		                <form>
-		                    <div class="form-group">
-		                        <input class="form-control" placeholder="Search Here..." type="text">
-		                    </div>
-		                </form>
-		            </div>
-		        </div>
-		    </div>
+		<div aria-hidden="true" class="modal fade search-modal" role="dialog"
+			tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="search-block clearfix">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Search Here..." type="text">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- Search Modal End -->
 
@@ -531,15 +619,19 @@
 		<script src="assets/js/skill.bars.jquery.js"></script>
 		<!-- imagesloaded js -->
 		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!-- Slick js -->
+		<script src="assets/js/slick.min.js"></script>
 		<!-- waypoints.min js -->
 		<script src="assets/js/waypoints.min.js"></script>
 		<!-- magnific popup js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<!-- counterup.min js -->
-		<script src="assets/js/jquery.counterup.min.js"></script> 
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Nivo slider js -->
+		<script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
 		<!-- contact form js -->
 		<script src="assets/js/contact.form.js"></script>
 		<!-- main js -->
 		<script src="assets/js/main.js"></script>
 	</body>
-</html>
+</html>    
