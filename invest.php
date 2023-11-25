@@ -481,7 +481,7 @@ p{
 						</ul>
 
 						<div class="btn-part text-center">
-							<a class="readon more know" href="javascript:void(0)" style="color: white;">Enroll Now</a>
+							<a class="readon more know" href="https://invest.arkinfraindia.com/register"target="_blank" style="color: white;">Enroll Now</a>
 						</div>
 						<br>
                 </div>
