@@ -95,9 +95,9 @@
 										<ul class="clearfix">
 											<li class="opening"> <em><i class="fi fi-rr-time-add"></i> Hours:
 													Mon-Fri: 10.00 am - 7.00 pm</em> </li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-										</ul>
+													<li><a href="https://www.facebook.com/profile.php?id=61553825252567"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="https://www.instagram.com/ark_infra_india/"><i class="fa fa-instagram"></i></a></li>
+											</ul>
 									</div>
 								</div>
 							</div>
@@ -374,86 +374,95 @@
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 pr-20 md-pr-15 md-mb-20">
+						<div class="col-lg-4 pr-20 md-pr-15 md-mb-20">
 							<div class="footer-logo mb-10 md-mb-30">
 								<a href="index.php"><img src="assets/image/logo/logo.png" alt="" style="height: 100px; width: auto;"></a>
 							</div>
 							<div class="textwidget">
 								<p class="pb-20">Partnering with us means taking your construction goals to the next level with expert advice and reliable Company.</p>
-								<p class="pb-25"><strong>Opening Hours</strong> : Monday – Sat : 10 am to 7 pm</p>
+								<p class="pb-25"><strong>Opening Hours</strong> : Monday – Sat : 10 am
+									to 7 pm</p>
 							</div>
-							<ul class="footer-social md-mb-30">  
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>                     
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>                     
-                          	</ul>
+							<ul class="footer-social md-mb-30">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
 						</div>
-						<div class="col-lg-3">
-							<h3 class="footer-title">Quick Link</h3>
-							<ul class="site-map">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="services.php">Services</a></li>
-                                <li><a href="projects.php">Projects</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
-                            </ul>
+						<div class="col-lg-3 ">
+							<h3 class="footer-title">Contact Info</h3>
+							<ul class="address-widget">
+								<li>
+									<i class="fi fi-rr-map-marker-home"></i>
+									<div class="desc">
+									1st Floor, Mumtaz Complex, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 19.
+									</div>
+								</li>
+								<li>
+									<i class="fi fi-rr-phone-call"></i>
+									<div class="desc">
+										<a href="tel:+919894443932">+91 98944 43932</a><br>
+										<a href="tel:+919092759389">+91 90927 59389</a>
+									</div>
+								</li>
+								<li>
+									<i class="fi fi-rr-envelope-plus"></i>
+									<div class="desc">
+										<a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a><br>
+										<a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a>
+									</div>
+								</li>
+							</ul>
 						</div>
+						
 						<div class="col-lg-3 md-mb-10">
 							<h3 class="footer-title">Our Services</h3>
 							<ul class="site-map">
-                                <li><a href="s-planning-designing.php">Planning & Designing</a></li>
-                                <li><a href="s-sanctioning.php">Sanctioning</a></li>
-                                <li><a href="s-estimation.php">Estimation</a></li>
-                                <li><a href="s-supervision.php">Supervision</a></li>
-                                <li><a href="s-3d-elevation.php">3D Elevation</a></li>
-                                <li><a href="s-construction.php">Construction</a></li>
-                            </ul>
+								<li><a href="s-planning-designing.php">Planning
+										& Designing</a></li>
+								<li><a href="s-sanctioning.php">Sanctioning</a></li>
+								<li><a href="s-estimation.php">Estimation</a></li>
+								<li><a href="s-supervision.php">Supervision</a></li>
+								<li><a href="s-3d-elevation.php">3D Elevation</a></li>
+								<li><a href="s-construction.php">Construction</a></li>
+							</ul>
 						</div>
-						<div class="col-lg-3 md-mb-10">
-							<h3 class="footer-title">Contact Info</h3>
-							<ul class="address-widget">
-                                <li>
-                                    <i class="fi fi-rr-map-marker-home"></i>
-                                    <div class="desc">
-									1st Floor, Mumtaz Complex, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 19.
-									</div>
-                                </li>
-                                <li>
-                                    <i class="fi fi-rr-phone-call"></i>
-                                    <div class="desc">
-										<a href="tel:+919894443932">+91 98944 43932</a><br>
-                                       	<a href="tel:+919092759389">+91 90927 59389</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="fi fi-rr-envelope-plus"></i>
-                                    <div class="desc">
-                                        <a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a><br>
-                                        <a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a>
-                                    </div>
-                                </li>
-                            </ul>
+						
+
+						<div class="col-lg-2 md-mb-10">
+							<h3 class="footer-title">Quick Link</h3>
+							<ul class="site-map">
+							<li><a href="invest.php">Invest</a></li>
+							    <li><a href="privacy-policy.php">Privacy Policy</a></li>
+								<li><a href="terms-conditions.php">Terms-Conditions </a></li>
+								<li><a href="cancellation-refund.php">cancellation-refund</a></li>
+								<li><a href="shipping-delivery.php">shipping-delivery</a></li>
+						        <li><a href="contact-us.php">Contact-Us</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="footer-bottom">
-                <div class="container">                    
-                    <div class="row y-middle">
-                        <div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
-                            <div class="copyright text-center">
-                                <p>Designed & Developed By <a href="https://www.zworktechnology.com/" target="blank">Zwork Technology</a></p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="copyright text-center">
-                                <p>© 2023 Arch Infra.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+				<div class="container">
+					<div class="row y-middle">
+						<div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
+							<div class="copyright text-center">
+								<p>Crafted By <a href="https://www.zworktechnology.com/"
+										target="blank">Zworktechnology.com</a></p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="copyright text-center">
+								<p> Copyright © 2023 Arch Infra, All Rights Reserved. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</footer>
 		<!-- Footer End -->
+
+
 
 		<!-- start scrollUp  -->
 		<div id="scrollUp">

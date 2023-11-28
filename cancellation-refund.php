@@ -45,9 +45,8 @@
 		<!-- responsive css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
-
 	<body class="defult-home">
-		
+
 		<div class="offwrap"></div>
 
 		<!--Preloader start here-->
@@ -60,7 +59,7 @@
 			</div>
 		</div>
 		<!--Preloader area end here-->
-			
+
 		<!-- Main content Start -->
 		<div class="main-content">
 
@@ -278,133 +277,95 @@
 			</div>
 			<!--Full width header End-->
 
-			<!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img4">
+
+    <!-- ======= Main Wrapper Start ======= -->
+    <main class="main-wrapper">
+        <!-- Breadcrumbs Start -->
+			<div class="rs-breadcrumbs img5">
 			    <div class="container">
 			        <div class="breadcrumbs-inner">
 			            <h1 class="page-title">
-			               	Contact Us
+			              Cancellation-Refund
 			            </h1>
-			            <span class="sub-text">Never hesitate to get in touch with us if you need a trustworthy construction company.</span>
 			            <ul class="breadcrumbs-area">
                            <li title="Go to konstruk">
                                <a class="active" href="index.php">Home</a>
                            </li>
-                          <li>Contact Us</li>
+						  <li> Cancellation-Refund</li>
                        </ul>
 			        </div>
 			    </div>
 			</div>
 			<!-- Breadcrumbs End -->
-		
-			<!-- Contact Section Start -->
-			<div class="rs-contact contact-style6 pb-120 md-pb-80">
-			    <div class="row no-gutters">
-			        <div class="col-lg-12">
-        				<div class="contact-section">
-                            <div class="contact-wrap">
-                            	<div class="sec-title mb-60">
-                            		<h2 class="title title4 ser-style4">Get in touch</h2>
-                            	</div>
-                                <div id="form-messages"></div>
-                                <form action="mail.php" method="post" autocomplete="off">
-                                    <fieldset>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="name" name="name" placeholder="Name *" required="">
-                                            </div> 
-											<div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number *" required="">
-                                            </div>
-                                            <div class="col-lg-12 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
-                                            </div>   
-                                            <div class="col-lg-12 mb-30">
-                                                <textarea class="from-control" id="message" name="message" placeholder="Your Message Here *" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="btn-part">                                            
-                                            <div class="form-group mb-0">
-												<button type="submit" class="readon more submit sub-con">Send Enquiry</button>
-                                            </div>
-                                        </div> 
-                                    </fieldset>
-                                </form> 
+
+        <div class="container">
+            <section class="case-details pt-120 pb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="case-details__header mb-35">
+                                <h2 class="heading primary-text-color">
+                                Cancellation-Refund
+                                </h2>
+                                
+                                <h3 class="heading mx-auto">
+                                1. When Things Can Be Returned or Exchanged:</h3>
+                                <p class="paragraph">
+                             <span style="color: #074d8d">1.1 Investment Cancellation:</span><br>
+                             	Ark Infra Invest acknowledges that circumstances may arise where investors wish to cancel their investment. Requests for cancellation are subject to the terms outlined in this policy.</p>
+                               <p class="paragraph">
+                                    <span style="color: #074d8d">1.2 Refund Eligibility:</span> <br>
+                                    	Refunds will be considered in cases where cancellations are made within [7 to 15 business working] days from the date of the investment. After this period, the investment is considered final, and refund requests may not be entertained.</p>
+                                <h3 class="heading mx-auto">
+                                2. How to Initiate a Return or Exchange:
+                                </h3>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">2.1 Cancellation Request: </span> <br>
+                                    	To initiate a cancellation, investors must submit a formal request to [Ark Infra Invest's Customer Service] within the specified cancellation period. The request should include the investor's details, investment reference number, and reasons for cancellation.
+                                </p>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">2.2 Review and Confirmation: </span> <br>
+                                    	Ark Infra Invest will review the cancellation request and assess its eligibility based on the terms outlined in this policy. Investors will receive a confirmation or denial of their cancellation request within [7] business days.</p>
+                                    <p class="paragraph">
+                                    <span style="color: #074d8d">2.3 Return of Documents: </span> <br>
+                                    	If applicable, investors may be required to return any provided documents or materials related to the investment within a specified timeframe as part of the cancellation process.
+                            <h3 class="heading mx-auto">
+                                        3. Refund Processing Time:
+                                </h3>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">3.1 Refund Approval:</span> <br>
+                                    If the cancellation request is approved, Ark Infra Invest will initiate the refund process. Refunds will be processed using the original payment method, and the investor will be notified of the refund approval. <p class="paragraph">
+                                    <span style="color: #074d8d">3.2 Processing Time: </span> <br>
+                                    Refund processing times may vary depending on the payment method and financial institutions involved. Ark Infra Invest will make reasonable efforts to process refunds promptly, and investors are encouraged to contact [Customer Service] for updates.
+                                </p>
+                                <!--<p class="paragraph">
+                                    <span style="color: #074d8d">3.3 User Content: </span> <br>
+                                    Users are solely responsible for any content they submit, post, or display on or through our services. Ark Infra Invest reserves the right to remove any content that violates these Terms and Conditions or is deemed objectionable. </p>
+                                --><h3 class="heading mx-auto">
+                                4. Important Notes:
+                                </h3>
+                                <p class="paragraph">
+                                    <!--<span style="color: #074d8d">4.1 Security Measures:</span> <br>-->
+                                    I	Refunds are subject to the terms and conditions outlined in the investment agreement and this policy.
+                                    Ark Infra Invest reserves the right to deny a cancellation request if it does not meet the specified criteria.
+                                	Refunds will not be provided for investments made outside the cancellation period unless required by applicable law.
+                                    This Cancellation and Refund Policy is subject to change without notice. It is your responsibility to review it periodically for updates.
+                                    If you have any questions or concerns, please contact Ark Infra Invest Customer Service at info@arkinfraindia.com 
+                                                Thank you for choosing Ark Infra Invest!
+
+</p>
+                                
                             </div>
                         </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			    <div class="rs-contact pt-120 md-pt-80">
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-4 col-md-6 md-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/1.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Office address</a></h4>
-			                           <p class="services-txt"> 1st Floor, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 620019.</p>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6 sm-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/2.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Email us</a></h4>
-			                           <span><a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a></span><br>
-                                    <span><a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/3.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Call us</a></h4>
-			                           <span><a href="tel:+919894443932">+91 98944 43932</a></span><br>
-			                          	<span><a href="tel:+919092759389">+91 90927 59389</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			</div>
-			<!-- Contact Section End -->
+                    </div>
+                </div>
+            </section>
+        </div>
 
-			<!-- Call To Action Choose Start -->
-			<div class="rs-cta bg4 pt-120 pb-115 md-pt-80 md-pb-75">
-				<div class="container">
-					<div class="call-action">
-						<div class="sec-title text-center">
-							<span class="sub-text yellow-color">
-								<img src="assets/image/shape-1.png" alt="Images">
-								Ark Infra - What's New
-							</span>
-							<h2 class="title white-color pb-20">
-								Priya's Palace
-							</h2>
-							<p class="desc desc3 pb-35">
-								At E.S.K Nager, Pandamangalam, Tiruchirappalli.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Call To Action Choose End -->
+    </main>
+    <!-- ======= Main Wrapper End ======= -->
 
-		</div> 
-		<!-- Main content End -->
-	 
-		<!-- Footer Start -->
+    <!-- Footer Start -->
 		<footer id="rs-footer" class="rs-footer footer-main-home">
 			<div class="footer-top">
 				<div class="container">
@@ -466,7 +427,7 @@
 						<div class="col-lg-2 md-mb-10">
 							<h3 class="footer-title">Quick Link</h3>
 							<ul class="site-map">
-							<li><a href="invest.php">Invest</a></li>
+                                <li><a href="invest.php">Invest</a></li>
 							    <li><a href="privacy-policy.php">Privacy Policy</a></li>
 								<li><a href="terms-conditions.php">Terms-Conditions </a></li>
 								<li><a href="cancellation-refund.php">cancellation-refund</a></li>
@@ -497,7 +458,6 @@
 		</footer>
 		<!-- Footer End -->
 
-
 		<!-- start scrollUp  -->
 		<div id="scrollUp">
 			<i class="fa fa-angle-up"></i>
@@ -505,18 +465,19 @@
 		<!-- End scrollUp  -->
 
 		<!-- Search Modal Start -->
-		<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
-		    <div class="modal-dialog modal-dialog-centered">
-		        <div class="modal-content">
-		            <div class="search-block clearfix">
-		                <form>
-		                    <div class="form-group">
-		                        <input class="form-control" placeholder="Search Here..." type="text">
-		                    </div>
-		                </form>
-		            </div>
-		        </div>
-		    </div>
+		<div aria-hidden="true" class="modal fade search-modal" role="dialog"
+			tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="search-block clearfix">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Search Here..." type="text">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- Search Modal End -->
 
@@ -538,12 +499,16 @@
 		<script src="assets/js/skill.bars.jquery.js"></script>
 		<!-- imagesloaded js -->
 		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!-- Slick js -->
+		<script src="assets/js/slick.min.js"></script>
 		<!-- waypoints.min js -->
 		<script src="assets/js/waypoints.min.js"></script>
 		<!-- magnific popup js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<!-- counterup.min js -->
-		<script src="assets/js/jquery.counterup.min.js"></script> 
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Nivo slider js -->
+		<script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
 		<!-- contact form js -->
 		<script src="assets/js/contact.form.js"></script>
 		<!-- main js -->

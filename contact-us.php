@@ -38,8 +38,7 @@
 	<!-- spacing css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
 	<!-- style css -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- This stylesheet dynamically changed from style.less -->
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
 	<!-- responsive css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
@@ -131,8 +130,7 @@
 													<ul class="sub-menu">
 														<li><a href="s-planning-designing.php">Planning
 																& Designing</a></li>
-														<li><a class="active" href="s-sanctioning.php">Sanctioning</a>
-														</li>
+														<li><a class="active" href="s-sanctioning.php">Sanctioning</a></li>
 														<li><a href="s-estimation.php">Estimation</a></li>
 														<li><a href="s-supervision.php">Supervision</a></li>
 														<li><a href="s-3d-elevation.php">3D
@@ -142,6 +140,9 @@
 												</li>
 												<li>
 													<a href="projects.php">Projects</a>
+												</li>
+												<li>
+													<a href="invest.php">Invest</a>
 												</li>
 												<li>
 													<a href="contact.php">Contact Us</a>
@@ -154,9 +155,7 @@
 							<div class="col-cell">
 								<div class="expand-btn-inner">
 									<ul>
-										<li class="btn-quote"><a class="quote-button"
-												href="https://api.whatsapp.com/send/?phone=%2B919894443932"
-												target="_blank">Chat Now</a></li>
+										<li class="btn-quote"><a class="quote-button" href="https://api.whatsapp.com/send/?phone=%2B919894443932" target="_blank">Chat on Whatsapp</a></li>
 										<li class="humburger">
 											<a id="nav-expander" class="nav-expander bar" href="#">
 												<div class="bar">
@@ -214,6 +213,9 @@
 							<a href="projects.php">Projects</a>
 						</li>
 						<li>
+							<a href="invest.php">Invest</a>
+						</li>
+						<li>
 							<a href="contact.php">Contact Us</a>
 						</li>
 					</ul> <!-- //.nav-menu -->
@@ -257,110 +259,99 @@
 		</div>
 		<!--Full width header End-->
 
-		<!-- Breadcrumbs Start -->
-		<div class="rs-breadcrumbs img5">
-			<div class="container">
-				<div class="breadcrumbs-inner">
-					<h1 class="page-title">
-						Estimation
-					</h1>
-					<ul class="breadcrumbs-area">
-						<li title="Go to konstruk">
-							<a class="active" href="index.php">Home</a>
-						</li>
-						<li>Estimation</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!-- Breadcrumbs End -->
 
-		<!-- Services Single Start -->
-		<div class="rs-services-single pt-120 pb-120 md-pt-80 md-pb-80">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 md-mb-50">
-						<div class="footer-logo mb-10 md-mb-30">
-							<a href="index.php"><img src="assets/image/services/s-b-6.jpg" alt=""></a>
-						</div>
-						<div class="services-title pb-24">
-							<h2 class="title">Estimation</h2>
-						</div>
-						<p class="desc-part pb-24">Estimation is a fundamental skill that all civil project managers
-							must learn in order to be successful. We at Ark infra Constructions recognize the value of
-							precise estimation and offer the highest level of service for all types of civil projects.
-							Our team of skilled experts uses cutting-edge methods and equipment to offer a precise
-							estimate for each specific job. Our expertise will guarantee that your project is assessed
-							accurately and effectively, enabling you to make wise business decisions. This includes cost
-							estimation and deadline verification.</p>
-						<ul class="check-lists3">
-							<li>Extensive Measuring with Experts in Estimating</li>
-							<li>Determine how long each cost estimate review will last.</li>
-							<li>Calculating profit overhead and construction circumstances.</li>
-							<li>Included and excluded terms were initially defined.</li>
+		<!-- ======= Main Wrapper Start ======= -->
+		<main class="main-wrapper">
+			<!-- Breadcrumbs Start -->
+			<div class="rs-breadcrumbs img5">
+				<div class="container">
+					<div class="breadcrumbs-inner">
+						<h1 class="page-title">
+							Contact-US
+						</h1>
+						<ul class="breadcrumbs-area">
+							<li title="Go to konstruk">
+								<a class="active" href="index.php">Home</a>
+							</li>
+							<li> Contact-US</li>
 						</ul>
 					</div>
-					<div class="col-lg-4 pl-36 md-pl-15">
-						<ul class="services-list mb-50">
-							<li><a href="s-planning-designing.php">Planning
-									& Designing</a></li>
-							<li><a href="s-sanctioning.php">Sanctioning</a></li>
-							<li><a class="active" href="s-estimation.php">Estimation</a></li>
-							<li><a href="s-supervision.php">Supervision</a></li>
-							<li><a href="s-3d-elevation.php">3D Elevation</a></li>
-							<li><a href="s-construction.php">Construction</a></li>
-						</ul>
-						<div class="services-add mb-50">
-							<div class="services-overlay"></div>
-							<div class="address-wrap-item mb-20">
-								<div class="icon-part mb-37">
-									<a href="tel:+91 98944 43932">
-										<i class="fa fa-phone"></i>
-									</a>
-								</div>
-								<h2 class="title">Have any Questions? Call
-									us <span>Today!</span></h2>
-								<div class="divider">
-									<span class="divider-separator"></span>
-								</div>
-								<div class="contact">
-									<a href="tel:+919894443932">+91 98944
-										43932</a>
+				</div>
+			</div>
+			<!-- Breadcrumbs End -->
+
+			<div class="container">
+				<section class="case-details pt-120 pb-100">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="case-details__header mb-35">
+									<h2 class="heading primary-text-color">
+										Contact-US
+									</h2>
+									<p>
+										Welcome to Ark Infra Invest! We appreciate your interest in our services. If you have any questions, concerns, or feedback, our dedicated support team is here to assist you. Please find our contact information below:
+									</p>
+
+									<h3 class="heading mx-auto">
+										1. General Inquiries:</h3>
+									<p class="paragraph">
+
+										For general inquiries, information about our services, or assistance with navigating our platform, feel free to reach out to us via email:
+										Email: info@arkinfraindia.com <a href="mailto: info@arkinfraindia.com "> info@arkinfraindia.com </a></p>
+
+
+									<h3 class="heading mx-auto">
+										2. Customer Support:</h3>
+									<p class="paragraph">
+										Our customer support team is ready to assist you with any issues you may encounter or questions you may have regarding your account, investments, or any other aspect of our services.
+										Email: <a href="mailto:info@arkinfraindia.com ">info@arkinfraindia.com</a>
+
+									</p>
+
+									<h3 class="heading mx-auto">
+										3. Partnerships and Collaborations
+									</h3>
+									<p class="paragraph">
+
+										For partnership opportunities or collaboration inquiries, please contact us. </p>
+									<h3 class="heading mx-auto">
+										4. Report Security Concerns
+									</h3>
+									<p class="paragraph">
+
+										If you have identified a potential security vulnerability or have security-related concerns, please don’t hesitate to contact us. </p>
+									<h3 class="heading mx-auto">
+										5. Office Address
+									</h3>
+									<p class="paragraph">
+
+										If you prefer traditional mail or need to reach us by post, our office address is:
+										1st Floor, Opposite to Monfort School, St. Raj Nagar, Kattur, Trichy - 620019.</p>
+
+									<h3 class="heading mx-auto">
+										6. Social Media
+									</h3>
+									<p class="paragraph">
+
+										Connect with us on social media for updates, news, and additional ways to stay in touch:
+											<br>
+										<a href="https://www.facebook.com/profile.php?id=61553825252567"><i class="fa fa-facebook"></i></a>
+										<a style="padding-left:15px;"href=" https://www.instagram.com/ark_infra_india/"><i class="fa fa-instagram"></i></a>
+									</p>
+
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 			</div>
-		</div>
-		<!-- Services Single End -->
 
-		<!-- Call To Action Choose Start -->
-		<div class="rs-cta bg4 pt-120 pb-115 md-pt-80 md-pb-75">
-			<div class="container">
-				<div class="call-action">
-					<div class="sec-title text-center">
-						<span class="sub-text yellow-color">
-							<img src="assets/image/shape-1.png" alt="Images">
-							Ark Infra - What's New
-						</span>
-						<h2 class="title white-color pb-20">
-							Priya's Palace
-						</h2>
-						<p class="desc desc3 pb-35">
-							At E.S.K Nager, Pandamangalam, Tiruchirappalli.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Call To Action Choose End -->
+		</main>
+		<!-- ======= Main Wrapper End ======= -->
 
-	</div>
-	<!-- Main content End -->
-
-	<!-- Footer Start -->
-	<footer id="rs-footer" class="rs-footer footer-main-home">
+		<!-- Footer Start -->
+		<footer id="rs-footer" class="rs-footer footer-main-home">
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
@@ -384,7 +375,7 @@
 								<li>
 									<i class="fi fi-rr-map-marker-home"></i>
 									<div class="desc">
-									1st Floor, Mumtaz Complex, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 19.
+										1st Floor, Mumtaz Complex, Opp to Monfort School, St. Raj Nagar, Kattur, Trichy - 19.
 									</div>
 								</li>
 								<li>
@@ -403,7 +394,7 @@
 								</li>
 							</ul>
 						</div>
-						
+
 						<div class="col-lg-3 md-mb-10">
 							<h3 class="footer-title">Our Services</h3>
 							<ul class="site-map">
@@ -416,29 +407,28 @@
 								<li><a href="s-construction.php">Construction</a></li>
 							</ul>
 						</div>
-						
+
 
 						<div class="col-lg-2 md-mb-10">
 							<h3 class="footer-title">Quick Link</h3>
 							<ul class="site-map">
-							<li><a href="invest.php">Invest</a></li>
-							    <li><a href="privacy-policy.php">Privacy Policy</a></li>
+								<li><a href="invest.php">Invest</a></li>
+								<li><a href="privacy-policy.php">Privacy Policy</a></li>
 								<li><a href="terms-conditions.php">Terms-Conditions </a></li>
 								<li><a href="cancellation-refund.php">cancellation-refund</a></li>
 								<li><a href="shipping-delivery.php">shipping-delivery</a></li>
-						        <li><a href="contact-us.php">Contact-Us</a></li>
+								<li><a href="contact-us.php">Contact-Us</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<<div class="footer-bottom">
+			<div class="footer-bottom">
 				<div class="container">
 					<div class="row y-middle">
 						<div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
 							<div class="copyright text-center">
-								<p>Crafted By <a href="https://www.zworktechnology.com/"
-										target="blank">Zworktechnology.com</a></p>
+								<p>Crafted By <a href="https://www.zworktechnology.com/" target="blank">Zworktechnology.com</a></p>
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -452,58 +442,60 @@
 		</footer>
 		<!-- Footer End -->
 
+		<!-- start scrollUp  -->
+		<div id="scrollUp">
+			<i class="fa fa-angle-up"></i>
+		</div>
+		<!-- End scrollUp  -->
 
-	<!-- start scrollUp  -->
-	<div id="scrollUp">
-		<i class="fa fa-angle-up"></i>
-	</div>
-	<!-- End scrollUp  -->
-
-	<!-- Search Modal Start -->
-	<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="search-block clearfix">
-					<form>
-						<div class="form-group">
-							<input class="form-control" placeholder="Search
-                                    Here..." type="text">
-						</div>
-					</form>
+		<!-- Search Modal Start -->
+		<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="search-block clearfix">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Search Here..." type="text">
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- Search Modal End -->
+		<!-- Search Modal End -->
 
-	<!-- modernizr js -->
-	<script src="assets/js/modernizr-2.8.3.min.js"></script>
-	<!-- jquery latest version -->
-	<script src="assets/js/jquery.min.js"></script>
-	<!-- Bootstrap v4.4.1 js -->
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- op nav js -->
-	<script src="assets/js/jquery.nav.js"></script>
-	<!-- owl.carousel js -->
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- isotope.pkgd.min js -->
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<!-- wow js -->
-	<script src="assets/js/wow.min.js"></script>
-	<!-- Skill bar js -->
-	<script src="assets/js/skill.bars.jquery.js"></script>
-	<!-- imagesloaded js -->
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<!-- waypoints.min js -->
-	<script src="assets/js/waypoints.min.js"></script>
-	<!-- magnific popup js -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- counterup.min js -->
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<!-- contact form js -->
-	<script src="assets/js/contact.form.js"></script>
-	<!-- main js -->
-	<script src="assets/js/main.js"></script>
+		<!-- modernizr js -->
+		<script src="assets/js/modernizr-2.8.3.min.js"></script>
+		<!-- jquery latest version -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Bootstrap v4.4.1 js -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- op nav js -->
+		<script src="assets/js/jquery.nav.js"></script>
+		<!-- owl.carousel js -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- isotope.pkgd.min js -->
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<!-- wow js -->
+		<script src="assets/js/wow.min.js"></script>
+		<!-- Skill bar js -->
+		<script src="assets/js/skill.bars.jquery.js"></script>
+		<!-- imagesloaded js -->
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!-- Slick js -->
+		<script src="assets/js/slick.min.js"></script>
+		<!-- waypoints.min js -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<!-- magnific popup js -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- counterup.min js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Nivo slider js -->
+		<script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
+		<!-- contact form js -->
+		<script src="assets/js/contact.form.js"></script>
+		<!-- main js -->
+		<script src="assets/js/main.js"></script>
 </body>
 
 </html>

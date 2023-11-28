@@ -45,9 +45,8 @@
 		<!-- responsive css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
-
 	<body class="defult-home">
-		
+
 		<div class="offwrap"></div>
 
 		<!--Preloader start here-->
@@ -60,7 +59,7 @@
 			</div>
 		</div>
 		<!--Preloader area end here-->
-			
+
 		<!-- Main content Start -->
 		<div class="main-content">
 
@@ -278,133 +277,108 @@
 			</div>
 			<!--Full width header End-->
 
-			<!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img4">
+
+    <!-- ======= Main Wrapper Start ======= -->
+    <main class="main-wrapper">
+        <!-- Breadcrumbs Start -->
+			<div class="rs-breadcrumbs img5">
 			    <div class="container">
 			        <div class="breadcrumbs-inner">
 			            <h1 class="page-title">
-			               	Contact Us
+			               Terms and Conditions
 			            </h1>
-			            <span class="sub-text">Never hesitate to get in touch with us if you need a trustworthy construction company.</span>
 			            <ul class="breadcrumbs-area">
                            <li title="Go to konstruk">
                                <a class="active" href="index.php">Home</a>
                            </li>
-                          <li>Contact Us</li>
+						  <li>Terms and Conditions</li>
                        </ul>
 			        </div>
 			    </div>
 			</div>
 			<!-- Breadcrumbs End -->
-		
-			<!-- Contact Section Start -->
-			<div class="rs-contact contact-style6 pb-120 md-pb-80">
-			    <div class="row no-gutters">
-			        <div class="col-lg-12">
-        				<div class="contact-section">
-                            <div class="contact-wrap">
-                            	<div class="sec-title mb-60">
-                            		<h2 class="title title4 ser-style4">Get in touch</h2>
-                            	</div>
-                                <div id="form-messages"></div>
-                                <form action="mail.php" method="post" autocomplete="off">
-                                    <fieldset>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="name" name="name" placeholder="Name *" required="">
-                                            </div> 
-											<div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number *" required="">
-                                            </div>
-                                            <div class="col-lg-12 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
-                                            </div>   
-                                            <div class="col-lg-12 mb-30">
-                                                <textarea class="from-control" id="message" name="message" placeholder="Your Message Here *" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="btn-part">                                            
-                                            <div class="form-group mb-0">
-												<button type="submit" class="readon more submit sub-con">Send Enquiry</button>
-                                            </div>
-                                        </div> 
-                                    </fieldset>
-                                </form> 
+
+        <div class="container">
+            <section class="case-details pt-120 pb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="case-details__header mb-35">
+                                <h2 class="heading primary-text-color">
+                                Terms and Conditions
+                                </h2>
+                                
+                                <h3 class="heading mx-auto">
+                                1. Effective Date for Policy:
+                                </h3>
+                                <p class="paragraph">
+                            <!--        <span style="color: #074d8d">1.1 Information You Provide:</span><br>-->
+                                    These Terms and Conditions are effective as of now and apply to all users of Ark Infra Invest services from now forward.
+                                </p>
+                               <!-- <p class="paragraph">
+                                    <span style="color: #074d8d">1.2 Automatically Collected Information:</span> <br>
+                                    •	We may collect information about your device, IP address, browser type, and operating system to enhance your user experience and improve our services.
+                                </p>-->
+                                <h3 class="heading mx-auto">
+                                2. Limitation of Liability and Disclaimer of Warranties:
+                                </h3>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">2.1 Limitation of Liability: </span> <br>
+                                    Ark Infra Invest, its affiliates, and their respective officers, directors, employees, or agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from:
+                                	Your use or inability to use our services.
+                                	Any unauthorized access to or use of our servers and/or any personal information stored therein.
+                            	   Any interruption or cessation of transmission to or from our services.
+                                	Any bugs, viruses, trojan horses, or the like that may be transmitted to or through our services.
+
+                                </p>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">2.2 Disclaimer of Warranties: </span> <br>
+                                    Ark Infra Invest provides its services on an "as-is" and "as available" basis. We make no representations or warranties of any kind, express or implied, regarding the services, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+                                </p>
+                                <h3 class="heading mx-auto">
+                                3. Rules of Conduct and User Restrictions:
+                                </h3>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">3.1 Compliance with Applicable Laws: </span> <br>
+                                    Users agree to comply with all applicable laws, regulations, and these Terms and Conditions when using Ark Infra Invest services.</p>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">3.2 Prohibited Conduct: </span> <br>
+                                    Users shall not engage in any conduct that, in Ark Infra Invest’s sole discretion, restricts or inhibits any other user from using or enjoying our services. Prohibited conduct includes but is not limited to:
+•	Violating any applicable laws or regulations.
+•	Interfering with the proper functioning of our services.
+•	Attempting to gain unauthorized access to our systems or networks.
+•	Engaging in any activity that could damage, disable, overburden, or impair our services.
+</p>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">3.3 User Content: </span> <br>
+                                    Users are solely responsible for any content they submit, post, or display on or through our services. Ark Infra Invest reserves the right to remove any content that violates these Terms and Conditions or is deemed objectionable. </p>
+                                <h3 class="heading mx-auto">
+                                4. Contact Information:
+                                </h3>
+                                <p class="paragraph">
+                                    <!--<span style="color: #074d8d">4.1 Security Measures:</span> <br>-->
+                                    If you have any questions or concerns regarding these Terms and Conditions, please contact us at:
+Ark Infra Invest
+1st Floor, Mumtaz Complex, Opposite to Monfort School, St. Raj Nagar, Kattur, Trichy – 620 019.
+Inquiry Now : info@arkinfraindia.com  
+Contact us : 98944 43932,  90927 59389
+By using Ark Infra Invest services, you agree to abide by these Terms and Conditions.
+These Terms and Conditions are subject to change without notice. It is your responsibility to review them periodically for updates.
+Thank you for choosing Ark Infra Invest!
+ </p>
+                                
+                                
                             </div>
                         </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			    <div class="rs-contact pt-120 md-pt-80">
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-4 col-md-6 md-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/1.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Office address</a></h4>
-			                           <p class="services-txt"> 1st Floor, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 620019.</p>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6 sm-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/2.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Email us</a></h4>
-			                           <span><a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a></span><br>
-                                    <span><a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/3.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Call us</a></h4>
-			                           <span><a href="tel:+919894443932">+91 98944 43932</a></span><br>
-			                          	<span><a href="tel:+919092759389">+91 90927 59389</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			</div>
-			<!-- Contact Section End -->
+                    </div>
+                </div>
+            </section>
+        </div>
 
-			<!-- Call To Action Choose Start -->
-			<div class="rs-cta bg4 pt-120 pb-115 md-pt-80 md-pb-75">
-				<div class="container">
-					<div class="call-action">
-						<div class="sec-title text-center">
-							<span class="sub-text yellow-color">
-								<img src="assets/image/shape-1.png" alt="Images">
-								Ark Infra - What's New
-							</span>
-							<h2 class="title white-color pb-20">
-								Priya's Palace
-							</h2>
-							<p class="desc desc3 pb-35">
-								At E.S.K Nager, Pandamangalam, Tiruchirappalli.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Call To Action Choose End -->
+    </main>
+    <!-- ======= Main Wrapper End ======= -->
 
-		</div> 
-		<!-- Main content End -->
-	 
-		<!-- Footer Start -->
+    <!-- Footer Start -->
 		<footer id="rs-footer" class="rs-footer footer-main-home">
 			<div class="footer-top">
 				<div class="container">
@@ -466,12 +440,13 @@
 						<div class="col-lg-2 md-mb-10">
 							<h3 class="footer-title">Quick Link</h3>
 							<ul class="site-map">
-							<li><a href="invest.php">Invest</a></li>
-							    <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                            <li><a href="invest.php">Invest</a></li>
+							   <li><a href="privacy-policy.php">Privacy Policy</a></li>
 								<li><a href="terms-conditions.php">Terms-Conditions </a></li>
 								<li><a href="cancellation-refund.php">cancellation-refund</a></li>
 								<li><a href="shipping-delivery.php">shipping-delivery</a></li>
-						        <li><a href="contact-us.php">Contact-Us</a></li>
+								
+								<li><a href="contact-us.php">Contact-Us</a></li>
 							</ul>
 						</div>
 					</div>
@@ -497,7 +472,6 @@
 		</footer>
 		<!-- Footer End -->
 
-
 		<!-- start scrollUp  -->
 		<div id="scrollUp">
 			<i class="fa fa-angle-up"></i>
@@ -505,18 +479,19 @@
 		<!-- End scrollUp  -->
 
 		<!-- Search Modal Start -->
-		<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
-		    <div class="modal-dialog modal-dialog-centered">
-		        <div class="modal-content">
-		            <div class="search-block clearfix">
-		                <form>
-		                    <div class="form-group">
-		                        <input class="form-control" placeholder="Search Here..." type="text">
-		                    </div>
-		                </form>
-		            </div>
-		        </div>
-		    </div>
+		<div aria-hidden="true" class="modal fade search-modal" role="dialog"
+			tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="search-block clearfix">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Search Here..." type="text">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- Search Modal End -->
 
@@ -538,12 +513,16 @@
 		<script src="assets/js/skill.bars.jquery.js"></script>
 		<!-- imagesloaded js -->
 		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!-- Slick js -->
+		<script src="assets/js/slick.min.js"></script>
 		<!-- waypoints.min js -->
 		<script src="assets/js/waypoints.min.js"></script>
 		<!-- magnific popup js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<!-- counterup.min js -->
-		<script src="assets/js/jquery.counterup.min.js"></script> 
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Nivo slider js -->
+		<script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
 		<!-- contact form js -->
 		<script src="assets/js/contact.form.js"></script>
 		<!-- main js -->

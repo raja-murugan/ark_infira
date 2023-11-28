@@ -45,9 +45,8 @@
 		<!-- responsive css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
-
 	<body class="defult-home">
-		
+
 		<div class="offwrap"></div>
 
 		<!--Preloader start here-->
@@ -60,7 +59,7 @@
 			</div>
 		</div>
 		<!--Preloader area end here-->
-			
+
 		<!-- Main content Start -->
 		<div class="main-content">
 
@@ -278,133 +277,94 @@
 			</div>
 			<!--Full width header End-->
 
-			<!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img4">
+
+    <!-- ======= Main Wrapper Start ======= -->
+    <main class="main-wrapper">
+        <!-- Breadcrumbs Start -->
+			<div class="rs-breadcrumbs img5">
 			    <div class="container">
 			        <div class="breadcrumbs-inner">
 			            <h1 class="page-title">
-			               	Contact Us
+			             Shipping and Delivery
 			            </h1>
-			            <span class="sub-text">Never hesitate to get in touch with us if you need a trustworthy construction company.</span>
 			            <ul class="breadcrumbs-area">
                            <li title="Go to konstruk">
                                <a class="active" href="index.php">Home</a>
                            </li>
-                          <li>Contact Us</li>
+						  <li>Shipping and Delivery</li>
                        </ul>
 			        </div>
 			    </div>
 			</div>
 			<!-- Breadcrumbs End -->
-		
-			<!-- Contact Section Start -->
-			<div class="rs-contact contact-style6 pb-120 md-pb-80">
-			    <div class="row no-gutters">
-			        <div class="col-lg-12">
-        				<div class="contact-section">
-                            <div class="contact-wrap">
-                            	<div class="sec-title mb-60">
-                            		<h2 class="title title4 ser-style4">Get in touch</h2>
-                            	</div>
-                                <div id="form-messages"></div>
-                                <form action="mail.php" method="post" autocomplete="off">
-                                    <fieldset>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="name" name="name" placeholder="Name *" required="">
-                                            </div> 
-											<div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number *" required="">
-                                            </div>
-                                            <div class="col-lg-12 col-md-6 col-sm-6 mb-30">
-                                                <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail" required="">
-                                            </div>   
-                                            <div class="col-lg-12 mb-30">
-                                                <textarea class="from-control" id="message" name="message" placeholder="Your Message Here *" required=""></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="btn-part">                                            
-                                            <div class="form-group mb-0">
-												<button type="submit" class="readon more submit sub-con">Send Enquiry</button>
-                                            </div>
-                                        </div> 
-                                    </fieldset>
-                                </form> 
+
+        <div class="container">
+            <section class="case-details pt-120 pb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="case-details__header mb-35">
+                                <h2 class="heading primary-text-color">
+                                Shipping and Delivery
+                                </h2>
+                                
+                                <h3 class="heading mx-auto">
+                                1. Order Processing and Shipping Time:</h3>
+                                <p class="paragraph">
+                             <span style="color: #074d8d">1.1 Investment Activation:</span><br>
+                             Upon successful completion of the investment process with Ark Infra Invest, the activation of your investment will commence. The activation time may vary based on the specific investment plan chosen and will be communicated during the investment confirmation process.<p class="paragraph">
+                                    <span style="color: #074d8d">1.2 Communication of Investment Details:</span> <br>
+                                    	Investors will receive comprehensive details related to their investment, including confirmation of the investment activation and any relevant documentation, via the provided contact information.</p>
+                                <h3 class="heading mx-auto">
+                                2. Shipping Cost:</h3>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">2.1 Investment Documentation: </span> <br>
+                                    	For physical documents associated with the investment, Ark Infra Invest covers the shipping cost for domestic deliveries within [India]. Additional charges may apply for international shipping, and investors will be informed of such costs during the investment confirmation process
+                                </p>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">2.2 Electronic Delivery:</span> <br>
+                                    	In cases where documents are provided electronically, there is no associated shipping cost. Electronic delivery allows for efficient and timely access to investment-related information.
+                                </p>
+                                    <h3 class="heading mx-auto">
+                                    3. International Shipping Process:
+                                </h3>
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">3.1 International Investor Considerations:</span> <br>
+                                    	Ark Infra Invest welcomes international investors. For investors located outside of [India], specific terms and conditions may apply. Investors are encouraged to review international investment guidelines provided by Ark Infra Invest. 
+                                </p> <p class="paragraph">
+                                    <span style="color: #074d8d">3.2 International Shipping Charges:</span> <br>
+                                    	For international investors requiring physical documents, shipping charges will be communicated during the investment confirmation process. These charges cover the cost of secure and timely international delivery.
+                                </p>
+
+                                <p class="paragraph">
+                                    <span style="color: #074d8d">3.3 Electronic Delivery for International Investors:</span> <br>
+                                    	To expedite the process and enhance accessibility, international investors may opt for electronic delivery of investment documents, eliminating the need for physical shipping.
+                                 </p>
+                                <h3 class="heading mx-auto">
+                                4. Important Notes:
+                                </h3>
+                                <p class="paragraph">
+                                    <!--<span style="color: #074d8d">4.1 Security Measures:</span> <br>-->
+                                    	The shipping and delivery policy is designed to ensure that investors receive accurate and timely information related to their investments.
+	                                    For electronic delivery, investors are advised to safeguard access credentials and review all provided documentation carefully.
+	                                    Any additional costs associated with international shipping will be communicated transparently during the investment confirmation process.
+                                    This Shipping and Delivery Policy is subject to change without notice. It is your responsibility to review it periodically for updates.
+                                    If you have any questions or concerns, please contact Ark Infra Invest Customer Service at info@arkinfraindia.com 
+                                            Thank you for investing Ark Infra Invest!
+
+</p>
+                                
                             </div>
                         </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			    <div class="rs-contact pt-120 md-pt-80">
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-4 col-md-6 md-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/1.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Office address</a></h4>
-			                           <p class="services-txt"> 1st Floor, Opp to Monfort School, St. Raj Nagar,  Kattur, Trichy - 620019.</p>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6 sm-mb-30">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/2.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Email us</a></h4>
-			                           <span><a href="mailto:arkinfra.india@gmail.com">arkinfra.india@gmail.com</a></span><br>
-                                    <span><a href="mailto:info@arkinfraindia.com">info@arkinfraindia.com</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			                <div class="col-lg-4 col-md-6">
-			                   <div class="contact-box">
-			                       <div class="contact-icon">
-			                           <img src="assets/image/3.png" alt="images">
-			                       </div>
-			                       <div class="content-text">
-			                           <h4 class="title"><a href="#">Call us</a></h4>
-			                           <span><a href="tel:+919894443932">+91 98944 43932</a></span><br>
-			                          	<span><a href="tel:+919092759389">+91 90927 59389</a></span>
-			                       </div>
-			                   </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <!-- Contact Icons Section End -->
-			</div>
-			<!-- Contact Section End -->
+                    </div>
+                </div>
+            </section>
+        </div>
 
-			<!-- Call To Action Choose Start -->
-			<div class="rs-cta bg4 pt-120 pb-115 md-pt-80 md-pb-75">
-				<div class="container">
-					<div class="call-action">
-						<div class="sec-title text-center">
-							<span class="sub-text yellow-color">
-								<img src="assets/image/shape-1.png" alt="Images">
-								Ark Infra - What's New
-							</span>
-							<h2 class="title white-color pb-20">
-								Priya's Palace
-							</h2>
-							<p class="desc desc3 pb-35">
-								At E.S.K Nager, Pandamangalam, Tiruchirappalli.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Call To Action Choose End -->
+    </main>
+    <!-- ======= Main Wrapper End ======= -->
 
-		</div> 
-		<!-- Main content End -->
-	 
-		<!-- Footer Start -->
+    <!-- Footer Start -->
 		<footer id="rs-footer" class="rs-footer footer-main-home">
 			<div class="footer-top">
 				<div class="container">
@@ -466,7 +426,7 @@
 						<div class="col-lg-2 md-mb-10">
 							<h3 class="footer-title">Quick Link</h3>
 							<ul class="site-map">
-							<li><a href="invest.php">Invest</a></li>
+                            <li><a href="invest.php">Invest</a></li>
 							    <li><a href="privacy-policy.php">Privacy Policy</a></li>
 								<li><a href="terms-conditions.php">Terms-Conditions </a></li>
 								<li><a href="cancellation-refund.php">cancellation-refund</a></li>
@@ -497,7 +457,6 @@
 		</footer>
 		<!-- Footer End -->
 
-
 		<!-- start scrollUp  -->
 		<div id="scrollUp">
 			<i class="fa fa-angle-up"></i>
@@ -505,18 +464,19 @@
 		<!-- End scrollUp  -->
 
 		<!-- Search Modal Start -->
-		<div aria-hidden="true" class="modal fade search-modal" role="dialog" tabindex="-1">
-		    <div class="modal-dialog modal-dialog-centered">
-		        <div class="modal-content">
-		            <div class="search-block clearfix">
-		                <form>
-		                    <div class="form-group">
-		                        <input class="form-control" placeholder="Search Here..." type="text">
-		                    </div>
-		                </form>
-		            </div>
-		        </div>
-		    </div>
+		<div aria-hidden="true" class="modal fade search-modal" role="dialog"
+			tabindex="-1">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="search-block clearfix">
+						<form>
+							<div class="form-group">
+								<input class="form-control" placeholder="Search Here..." type="text">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- Search Modal End -->
 
@@ -538,12 +498,16 @@
 		<script src="assets/js/skill.bars.jquery.js"></script>
 		<!-- imagesloaded js -->
 		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!-- Slick js -->
+		<script src="assets/js/slick.min.js"></script>
 		<!-- waypoints.min js -->
 		<script src="assets/js/waypoints.min.js"></script>
 		<!-- magnific popup js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<!-- counterup.min js -->
-		<script src="assets/js/jquery.counterup.min.js"></script> 
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- Nivo slider js -->
+		<script src="assets/inc/custom-slider/js/jquery.nivo.slider.js"></script>
 		<!-- contact form js -->
 		<script src="assets/js/contact.form.js"></script>
 		<!-- main js -->
