@@ -10774,6 +10774,9 @@ body .search-modal .close:hover {
   color: #ffffff;
   margin: 0;
 }
+.rs-footer.footer-main-home .footer-bottom .copyright p #orange{
+  color: #d75a1f;
+}
 .rs-footer.footer-main-home .footer-bottom .copyright p a {
   transition: all 0.4s;
   color: #ffffff;

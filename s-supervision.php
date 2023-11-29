@@ -467,12 +467,20 @@
 						<div class="col-lg-6 md-mb-10 text-lg-end text-center order-last">
 							<div class="copyright text-center">
 								<p>Crafted By <a href="https://www.zworktechnology.com/"
-										target="blank">Zworktechnology.com</a></p>
+										target="blank"><span id="orange">zworktechnology.com</span></a></p>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="copyright text-center">
-								<p> Copyright © 2023 Arch Infra, All Rights Reserved. </p>
+
+							<p> 
+							Copyright &copy; 2023 - 
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+               
+
+								 <span id="orange"> Arch Infra</span> , All Rights Reserved. </p>
 							</div>
 						</div>
 					</div>
